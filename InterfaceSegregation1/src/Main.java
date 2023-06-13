@@ -6,13 +6,9 @@ public class Main {
 
         EngedelyKezelo kezelo = new EngedelyKezelo(alapEngedely,  specialisEngedely);
 
-        // Alap bejelentkezési jogosultság hozzáadása és visszavonása az alap engedélyeknek
         kezelo.grantAlapEngedely();
         kezelo.revokeAlapEngedely();
 
-
-
-        // Alap bejelentkezési és speciális jogosultság hozzáadása és visszavonása a speciális engedélyeknek
         kezelo.grantSpecialisEngedely();
         kezelo.revokeSpecialisEngedely();
     }
